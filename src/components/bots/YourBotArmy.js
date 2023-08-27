@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import SelectedBot from "./SelectedBot";
-import { GiRobotGolem } from "react-icons/gi";
 
 function YourBotArmy({botId, bots, setBotId}){
-
 
 
     function handleDelete(input){
@@ -12,22 +10,13 @@ function YourBotArmy({botId, bots, setBotId}){
     }
 
 
-    
-
-
-
     let theSelectedArmy = bots.filter((bot)=>{
         for(let i=0 ; i< botId.length; i++ ){
             if(bot.id=== botId[i]){
                 return bot
         }
         }
-    }
-    
-    )
-
-
-
+    })
 
 
     console.log(theSelectedArmy)
@@ -43,7 +32,6 @@ function YourBotArmy({botId, bots, setBotId}){
             <div className="container  mt-4" id="selection">
                 
             <div className="row">
-                <center><h2 style={{color:"red"}} id="armySelect">Bot <GiRobotGolem/> Army</h2></center>
             
                 {theeBots}
 

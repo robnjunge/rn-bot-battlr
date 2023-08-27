@@ -3,7 +3,7 @@ import BotItem from "./BotItem";
 import YourBotArmy from "./YourBotArmy";
 
 
-const url ="https://localhost:8001/bots/"
+const url ="https://bot-btlr-jason-server.vercel.app/bots/"
 
 function BotCollection(){
 
@@ -16,13 +16,9 @@ function BotCollection(){
         .then(data =>{
             console.log(data)
             setBots(data)
-        })
+         })
 
     },[])
-
-    
-
-    
 
     function handleDelete(id){
          fetch(`url${id}`,{
@@ -32,19 +28,14 @@ function BotCollection(){
             setBots((bots=> bots.filter((bt)=>bt.id !== id)))
          })
     }
+     const [botId, setBotId] = useState([])
 
-    const [botId, setBotId] = useState([])
-
-    console.log(botId)
+     console.log(botId)
 
     function handleClicked(idInput){
         setBotId([...botId,idInput])
     }
-
-
-
-
-
+    
     const botContent= bots.map((content,index)=><BotItem image={content.avatar_url} name={content.name} health={content.health} damage={content.damage} armor={content.armor} bot_class={content.bot_class} catchphrase={content.catchphrase} id={content.id} handleClicked={handleClicked} handleDelete={handleDelete}/>)
 
     return(
