@@ -3,7 +3,6 @@ import BotItem from "./BotItem";
 import YourBotArmy from "./YourBotArmy";
 
 
-// const url="http://localhost:3000/bots"
 const url ="https://localhost:8001/bots/"
 
 function BotCollection(){
@@ -17,8 +16,6 @@ function BotCollection(){
         .then(data =>{
             console.log(data)
             setBots(data)
-            // setBotSelect(data.slice(5,7))
-            // console.log(botSelect)
         })
 
     },[])
@@ -36,7 +33,6 @@ function BotCollection(){
          })
     }
 
-// state to get bot id's when the bot item is clicked in BotItem Compatment
     const [botId, setBotId] = useState([])
 
     console.log(botId)
@@ -53,7 +49,6 @@ function BotCollection(){
 
     return(
         <div>
-            {/* <YourBotArmy handleClick ={handleClick} handleRemoveSelection={handleRemoveSelection} botSelect={botSelect}/> */}
             <YourBotArmy botId={botId} bots={bots} setBotId={setBotId}/>
         <div className="container mt-4">
             <div className="row">
