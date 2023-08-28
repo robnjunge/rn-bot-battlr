@@ -6,7 +6,7 @@ function App() {
 
     <div>
       <div>
-        <h1 id="header">STEELMUSCLES</h1>
+        <h1 id="header">STEEL.*.MUSCLES</h1>
       </div>
       <BotCollection/> 
     </div>
