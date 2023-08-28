@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bot Army Selector
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+This ia a web app that has a listing of army bots that can be enlisted in an army.
 
-### `npm start`
+As a use you can custom build your own Bot Army and compare the health, damage, armor and the bot class of the botts in our listing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* HTML
+* CSS
+* React
 
-### `npm test`
+### Running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Open the following [link](https://golden-figolla-1175cb.netlify.app/) in your web browser:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Go through the list of bots available.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Click on a bot of chice to add it to a your selected army.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* They will show at the top as a collection.
 
-### `npm run eject`
+* To remove remove a partcular selected bot, click on it and it will be removed from your selection.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was contributed to by [Robert Njung'e][link](https://github.com/robnjunge)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is under ISC License
