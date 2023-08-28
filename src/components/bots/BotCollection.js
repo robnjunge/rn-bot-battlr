@@ -8,7 +8,6 @@ const url ="https://bot-json-vcsr.onrender.com/bots/"
 function BotCollection(){
 
     const [bots, setBots] = useState([])
-    const [botSelectId, setBotSelectId] = useState([])
 
     useEffect(()=>{
         fetch(url)
