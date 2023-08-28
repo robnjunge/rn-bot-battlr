@@ -38,37 +38,21 @@
 }
 
 body{
-  background-color: #282c34;
+  background-color: rgb(43, 2, 34);
 }
 
 #selection{
   min-height: 400px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(193, 231, 210);
   border-radius: 5px;
   border-color: greenyellow;
   padding: 10px;
   border: 5px;
 }
 
-#icons{
-  justify-content: space-evenly;
-  text-align: center;
-}
-
-#wartime{
-  background-color: transparent;
-  border-radius: 15px;
-  top: 30px;
-  margin: 3%;
-  border: 10px;
-  border-color: red;
-
-
-}
-
 #header{
   text-align: center;
-  color: red;
+  color: rgb(0, 106, 255);
   font-family: 'Cinzel Decorative', cursive;
   font-size:4em
   

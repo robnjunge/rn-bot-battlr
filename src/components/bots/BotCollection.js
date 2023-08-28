@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import BotItem from "./BotItem";
 import YourBotArmy from "./YourBotArmy";
 
-
 const url ="https://bot-json-vcsr.onrender.com/bots/"
 
 function BotCollection(){
