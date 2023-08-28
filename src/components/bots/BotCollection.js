@@ -3,7 +3,7 @@ import BotItem from "./BotItem";
 import YourBotArmy from "./YourBotArmy";
 
 
-const url ="https://bot-btlr-jason-server.vercel.app/bots/"
+const url ="https://bot-json-vcsr.onrender.com/bots/"
 
 function BotCollection(){
 
@@ -16,10 +16,11 @@ function BotCollection(){
         .then(data =>{
             console.log(data)
             setBots(data)
-         })
+           
+        })
 
     },[])
-
+    
     function handleDelete(id){
          fetch(`url${id}`,{
             method: "DELETE",
@@ -28,9 +29,10 @@ function BotCollection(){
             setBots((bots=> bots.filter((bt)=>bt.id !== id)))
          })
     }
-     const [botId, setBotId] = useState([])
 
-     console.log(botId)
+    const [botId, setBotId] = useState([])
+
+    console.log(botId)
 
     function handleClicked(idInput){
         setBotId([...botId,idInput])
@@ -49,8 +51,6 @@ function BotCollection(){
         </div>
         </div>
     )
-
-
 
 }
 

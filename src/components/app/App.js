@@ -2,7 +2,6 @@ import './App.css';
 import BotCollection from '../bots/BotCollection';
 import YourBotArmy from '../bots/YourBotArmy';
 import {Route, Routes} from "react-router-dom"
-import SelectedBot from '../bots/SelectedBot';
 
 function App() {
   return (
@@ -10,9 +9,12 @@ function App() {
       <div id="wartime">
         <h1 id="header">WAR-TIME</h1>
       </div>
+      {/* <YourBotArmy/> */}
       <BotCollection/>
-      <SelectedBot/>
-      </div>
+      {/* <Routes>
+        <Route path="/bots" element={<BotCollection/>} />
+      </Routes> */}
+    </div>
 
   );
 }
