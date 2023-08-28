@@ -29,7 +29,7 @@ As a use you can custom build your own Bot Army and compare the health, damage, 
 
 ### Authors
 
-This project was contributed to by [Robert Njung'e][link](https://github.com/robnjunge)
+This project was contributed to by [Robert Njung'e](https://github.com/robnjunge)
 
 ### License
 
