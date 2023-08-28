@@ -1,8 +1,5 @@
 import './App.css';
 import BotCollection from '../bots/BotCollection';
-import YourBotArmy from '../bots/YourBotArmy';
-import {Route, Routes} from "react-router-dom"
-
 
 function App() {
   return (
